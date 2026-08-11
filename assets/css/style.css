@@ -23,3 +23,6 @@ a {
   text-decoration: none;
   color: var(--color-primary);
   }
+  ul {
+  list-style: none;
+}
