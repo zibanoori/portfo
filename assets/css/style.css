@@ -4,21 +4,18 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Rubik", "Vazirmatn", sans-serif;
-}
 :root {
   --font-main: "Rubik", "Vazirmatn", sans-serif;
   --font-heading: "Oswald", sans-serif;
   --font-script: "Dancing Script", cursive;
   --font-alt: "Outfit", sans-serif;
-   --color-primary: #1B2A4A;      
-  --color-secondary: #C8956C;    
-  --color-background: #F7F5F0;  
-  --color-white: #FFFFFF;      
-  --font-body: "Rubik", "Vazirmatn", sans-serif;
+
+  --color-primary: #1b2a4a;
+  --color-secondary: #c8956c;
+  --color-background: #f7f5f0;
+  --color-white: #ffffff;
 }
 
-html {
+body {
   font-family: var(--font-main);
 }
