@@ -12,11 +12,11 @@ body {
   --font-heading: "Oswald", sans-serif;
   --font-script: "Dancing Script", cursive;
   --font-alt: "Outfit", sans-serif;
-  --color-primary: ...;
-  --color-secondary: ...;
-  --color-background: ...;
-  --color-white: ...;
-  --font-body: ...;
+   --color-primary: #1B2A4A;      
+  --color-secondary: #C8956C;    
+  --color-background: #F7F5F0;  
+  --color-white: #FFFFFF;      
+  --font-body: "Rubik", "Vazirmatn", sans-serif;
 }
 
 html {
