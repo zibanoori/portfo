@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
-  body {
-    font-family: "Rubik", "Vazirmatn", sans-serif;
-  }
+body {
+  font-family: "Rubik", "Vazirmatn", sans-serif;
+}
+:root {
+  --font-main: "Rubik", "Vazirmatn", sans-serif;
+  --font-heading: "Oswald", sans-serif;
+  --font-script: "Dancing Script", cursive;
+  --font-alt: "Outfit", sans-serif;
+  --color-primary: ...;
+  --color-secondary: ...;
+  --color-background: ...;
+  --color-white: ...;
+  --font-body: ...;
+}
+
+html {
+  font-family: var(--font-main);
+}
