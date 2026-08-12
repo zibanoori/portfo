@@ -46,8 +46,16 @@ img {
 
 .hero-image {
   flex: 2;
+  border: 1px solid #1b2a4a;
+  border-radius: 10px;
 }
 
 .hero-content {
   flex: 1;
+}
+
+.hero-image image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
