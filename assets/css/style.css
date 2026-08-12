@@ -48,6 +48,7 @@ img {
   flex: 2;
   border: 1px solid #1b2a4a;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .hero-content {
