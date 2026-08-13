@@ -82,3 +82,8 @@ img {
 .btn-primary:focus {
   outline: 2px solid var(--color-secondary);
 }
+.profile-text {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
