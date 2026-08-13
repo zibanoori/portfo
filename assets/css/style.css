@@ -83,7 +83,9 @@ img {
   outline: 2px solid var(--color-secondary);
 }
 .profile-text {
+  font-family: var(--font-alt);
   font-size: 1.1rem;
-  color: var(--color-primary);
+  color: var(--color-secondary);
+  line-height: 1.7;
   margin-bottom: 16px;
 }
