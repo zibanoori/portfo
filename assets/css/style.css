@@ -87,20 +87,28 @@ img {
   font-size: 1.1rem;
   color: var(--color-secondary);
   line-height: 1.7;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 .profile-name {
   font-family: var(--font-heading);
   font-size: 2.5rem;
   color: var(--color-primary);
-  line-height: 1.7;
-  margin-bottom: 16px;
+  line-height: 1.2;
+  margin-bottom: 12px;
 }
 
 .job-title {
   font-family: var(--font-main);
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+.profile-description {
+  font-family: var(--font-main);
+  font-size: 1rem;
   color: var(--color-primary);
   line-height: 1.7;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
