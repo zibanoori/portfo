@@ -143,3 +143,6 @@ img {
   color: var(--color-primary);
   transition: 0.3s;
 }
+.nav-list a:hover {
+  color: var(--color-secondary);
+}
