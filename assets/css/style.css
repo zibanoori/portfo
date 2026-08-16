@@ -160,3 +160,8 @@ img {
 .nav-list a:hover::after {
   width: 100%;
 }
+.social {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
