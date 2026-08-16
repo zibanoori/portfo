@@ -118,6 +118,7 @@ img {
   align-items: center;
   width: 100%;
   padding: 12px 40px;
+  border-bottom: 1px solid rgba(27, 42, 74, 0.12);
 }
 .logo {
   font-family: var(--font-script);
