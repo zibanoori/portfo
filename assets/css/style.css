@@ -138,6 +138,7 @@ img {
   align-items: center;
 }
 .nav-list a {
+  position: relative;
   font-family: var(--font-main);
   font-size: 1rem;
   color: var(--color-primary);
@@ -145,4 +146,17 @@ img {
 }
 .nav-list a:hover {
   color: var(--color-secondary);
+}
+.nav-list a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-secondary);
+  transition: width 0.3s ease;
+}
+.nav-list a:hover::after {
+  width: 100%;
 }
