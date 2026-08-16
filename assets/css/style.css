@@ -119,4 +119,9 @@ img {
   width: 100%;
   padding: 12px 40px;
 }
-
+.logo {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--color-primary);
+  letter-spacing: 0.7px;
+}
