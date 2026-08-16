@@ -175,3 +175,6 @@ img {
 .social a:hover {
   color: var(--color-secondary);
 }
+main {
+  width: 100%;
+}
