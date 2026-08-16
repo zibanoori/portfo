@@ -195,5 +195,12 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
+  gap: 70px;
+}
+.about-content {
+  flex: 2;
+}
+
+.about-info {
+  flex: 1;
 }
