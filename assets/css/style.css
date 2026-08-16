@@ -177,6 +177,7 @@ img {
 }
 main {
   width: 100%;
+  background-color: var(--color-background);
 }
 .container {
   max-width: 1000px;
