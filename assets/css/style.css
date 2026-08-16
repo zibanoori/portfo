@@ -187,3 +187,6 @@ main {
   align-items: center;
   gap: 15px;
 }
+.about {
+  padding: 80px 0;
+}
