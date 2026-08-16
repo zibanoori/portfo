@@ -165,3 +165,8 @@ img {
   gap: 20px;
   align-items: center;
 }
+.social a {
+font-size: 700;
+color: var(--color-primary);
+transition: 0.3s;
+}
