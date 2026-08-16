@@ -191,3 +191,9 @@ main {
 .about {
   padding: 80px 0;
 }
+.about .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
