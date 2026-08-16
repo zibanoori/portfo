@@ -166,7 +166,8 @@ img {
   align-items: center;
 }
 .social a {
-font-size: 700;
-color: var(--color-primary);
-transition: 0.3s;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  transition: 0.3s;
 }
