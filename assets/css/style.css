@@ -171,3 +171,6 @@ img {
   color: var(--color-primary);
   transition: 0.3s;
 }
+.social a:hover {
+  color: var(--color-secondary);
+}
