@@ -125,3 +125,9 @@ img {
   color: var(--color-primary);
   letter-spacing: 0.7px;
 }
+.logo a {
+  transition: 0.3s;
+}
+.logo a:hover {
+  color: var(--color-secondary);
+}
