@@ -235,3 +235,9 @@ main {
   padding: 10px 0;
   border-bottom: 1px solid rgba(19, 27, 45, 0.08);
 }
+.about-info li::before {
+  content: "✓";
+  color: var(--color-secondary);
+  font-weight: bold;
+  margin-right: 10px;
+}
