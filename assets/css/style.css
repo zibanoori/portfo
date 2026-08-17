@@ -55,7 +55,7 @@ img {
   flex: 1;
 }
 
-.hero-image image {
+.hero-image img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -178,15 +178,6 @@ img {
 main {
   width: 100%;
   background-color: var(--color-background);
-}
-.container {
-  max-width: 1000px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
 }
 .about {
   padding: 80px 0;
