@@ -205,14 +205,15 @@ main {
   flex: 1;
 }
 .section-label {
-  font-family: var(--font-alt);
-  font-size: 1.1rem;
+  font-family: var(--font-main);
+  font-size: 2.3rem;
   color: var(--color-secondary);
   margin-bottom: 22px;
+  font-weight: 400;
 }
 .section-title {
-  font-family: var(--font-heading);
-  font-size: 2.2rem;
+  font-family: var(--font-main);
+  font-size: 2rem;
   color: var(--color-primary);
   line-height: 1.3;
   margin-bottom: 20px;
