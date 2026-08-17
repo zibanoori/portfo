@@ -226,3 +226,11 @@ main {
   margin-bottom: 16px;
   font-weight: 400;
 }
+.about-info {
+  flex: 1;
+  padding: 30px;
+  background-color: var(--color-white);
+  border-radius: 12px;
+  border: 1px solid rgba(27, 42, 74, 0.1);
+  box-shadow: 0 5px 15px rgba(27, 42, 74, 0.08);
+}
