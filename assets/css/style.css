@@ -246,3 +246,10 @@ main {
   color: var(--color-secondary);
   padding-left: 4px;
 }
+.about-info ul {
+  margin-top: 10px;
+}
+
+.about-info li:last-child {
+  border-bottom: none;
+}
