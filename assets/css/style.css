@@ -228,3 +228,10 @@ main {
   color: var(--color-primary);
   margin-bottom: 20px;
 }
+.about-info li {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  color: var(--color-primary);
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(19, 27, 45, 0.08);
+}
