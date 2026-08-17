@@ -234,10 +234,15 @@ main {
   color: var(--color-primary);
   padding: 10px 0;
   border-bottom: 1px solid rgba(19, 27, 45, 0.08);
+  transition: 0.3s;
 }
 .about-info li::before {
   content: "✓";
   color: var(--color-secondary);
   font-weight: bold;
   margin-right: 10px;
+}
+.about-info li:hover {
+  color: var(--color-secondary);
+  padding-left: 8px;
 }
