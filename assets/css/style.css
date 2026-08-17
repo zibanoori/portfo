@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   --font-main: "Rubik", "Vazirmatn", sans-serif;
   --font-heading: "Oswald", sans-serif;
@@ -15,25 +14,20 @@
   --color-background: #f7f5f0;
   --color-white: #ffffff;
 }
-
 body {
   font-family: var(--font-main);
 }
-
 a {
   text-decoration: none;
   color: var(--color-primary);
 }
-
 ul {
   list-style: none;
 }
-
 img {
   max-width: 100%;
   display: block;
 }
-
 .container {
   max-width: 1000px;
   margin: auto;
@@ -43,18 +37,15 @@ img {
   align-items: center;
   gap: 15px;
 }
-
 .hero-image {
   flex: 2;
   border: 1px solid #bbc1d0;
   border-radius: 10px;
   overflow: hidden;
 }
-
 .hero-content {
   flex: 1;
 }
-
 .hero-image img {
   width: 100%;
   height: auto;
@@ -96,7 +87,6 @@ img {
   line-height: 1.2;
   margin-bottom: 12px;
 }
-
 .job-title {
   font-family: var(--font-main);
   font-size: 1.5rem;
