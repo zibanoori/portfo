@@ -244,5 +244,5 @@ main {
 }
 .about-info li:hover {
   color: var(--color-secondary);
-  padding-left: 8px;
+  padding-left: 4px;
 }
