@@ -279,3 +279,7 @@ main {
   border-radius: 10px;
   transition: 0.3s;
 }
+.skill-item i {
+  font-size: 1.8rem;
+  color: var(--color-secondary);
+}
