@@ -253,3 +253,6 @@ main {
 .about-info li:last-child {
   border-bottom: none;
 }
+.skills {
+  padding: 60px 0;
+}
