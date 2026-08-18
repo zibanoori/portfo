@@ -292,3 +292,11 @@ main {
 .skill-item span:hover{
   color: var(--color-secondary);
 }
+.skill-item:hover {
+  box-shadow: 0 5px 15px rgba(27, 42, 74, 0.08);
+}
+
+.skill-item:hover i,
+.skill-item:hover span {
+  color: var(--color-secondary);
+}
