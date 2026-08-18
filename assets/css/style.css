@@ -214,6 +214,11 @@ main {
   border-radius: 12px;
   border: 1px solid rgba(27, 42, 74, 0.1);
   box-shadow: 0 5px 15px rgba(27, 42, 74, 0.08);
+  transition: 0.3s;
+}
+.about-info:hover {
+  box-shadow: 0 5px 15px rgba(27, 42, 74, 0.08);
+  transform: translateY(-5px);
 }
 .about-info h3 {
   font-family: var(--font-main);
