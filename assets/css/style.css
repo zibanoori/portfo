@@ -260,3 +260,9 @@ main {
   align-items: center;
   gap: 60px;
 }
+.skills-content {
+  flex: 1;
+}
+.skills-list {
+  flex: 2;
+}
