@@ -289,3 +289,6 @@ main {
   color: var(--color-primary);
   transition: 0.3s;
 }
+.skill-item span:hover{
+  color: var(--color-secondary);
+}
