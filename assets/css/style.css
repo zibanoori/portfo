@@ -283,3 +283,9 @@ main {
   font-size: 1.8rem;
   color: var(--color-secondary);
 }
+.skill-item span {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  color: var(--color-primary);
+  transition: 0.3s;
+}
