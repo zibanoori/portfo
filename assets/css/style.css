@@ -312,3 +312,11 @@ main {
   color: var(--color-white);
   padding-top: 60px;
 }
+.footer-container {
+max-width: 1000px;
+margin:0 auto;
+padding: 0 20px 50px;
+display: grid;
+grid-template-columns: 2fr 1fr 1fr;
+gap: 70px;
+}
