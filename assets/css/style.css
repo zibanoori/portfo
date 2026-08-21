@@ -361,3 +361,12 @@ gap: 70px;
   display: flex;
   flex-direction: column;
 }
+.footer-contact p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-main);
+  font-size: 0.95rem;
+  color: #d9dfeb;
+  margin-bottom: 14px;
+}
