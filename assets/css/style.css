@@ -323,3 +323,9 @@ gap: 70px;
 .footer-brand {
   max-width: 400px;
 }
+.footer-logo {
+  font-family: var(--font-script);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
