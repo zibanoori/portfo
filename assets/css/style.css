@@ -342,3 +342,8 @@ gap: 70px;
   font-weight: 500;
   margin-bottom: 20px;
 }
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
