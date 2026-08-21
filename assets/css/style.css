@@ -329,3 +329,9 @@ gap: 70px;
   font-weight: 600;
   margin-bottom: 15px;
 }
+.footer-description {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #d9dfed;
+}
