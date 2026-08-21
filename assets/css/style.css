@@ -379,3 +379,8 @@ gap: 70px;
   text-align: center;
   padding: 20px;
 }
+.footer-bottom p {
+  font-family: var(--font-main);
+  font-size: 0.85rem;
+  color: #b8c1d0;
+}
