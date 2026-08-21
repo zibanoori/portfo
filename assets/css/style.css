@@ -320,3 +320,6 @@ display: grid;
 grid-template-columns: 2fr 1fr 1fr;
 gap: 70px;
 }
+.footer-brand {
+  max-width: 400px;
+}
