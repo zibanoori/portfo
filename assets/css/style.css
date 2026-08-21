@@ -347,3 +347,9 @@ gap: 70px;
   flex-direction: column;
   gap: 12px;
 }
+.footer-links a {
+  color: #d9dfeb;
+  font-family: var(--font-main);
+  font-size: 0.95rem;
+  transition: 0.3s;
+}
