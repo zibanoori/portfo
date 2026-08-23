@@ -393,3 +393,9 @@ main {
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
+.projects-card {
+  padding: 25px;
+  background-color: var(--color-white);
+  border: 1px solid rgba(27, 42, 74, 0.1);
+  border-radius: 14px;
+}
