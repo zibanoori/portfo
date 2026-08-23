@@ -383,3 +383,8 @@ main {
 .projects {
   padding: 40px 0;
 }
+.projects-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
