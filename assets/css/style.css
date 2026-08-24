@@ -435,3 +435,7 @@ main {
 .project-card.active img {
   transform: scale(1.1);
 }
+.project-card.active .card-content {
+  opacity: 1;
+  transform: translateY(0);
+}
