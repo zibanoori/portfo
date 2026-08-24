@@ -419,3 +419,13 @@ main {
   display: block;
   transition: transform 1s;
 }
+.card-content {
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .4s, transform .4s;
+}
