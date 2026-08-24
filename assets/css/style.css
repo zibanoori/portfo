@@ -469,3 +469,41 @@ main {
   font-size: 12px;
   font-weight: bold;
 }
+.badges {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.badge.html {
+  background-color: #5c5452;
+  color: white;
+}
+
+.badge.css {
+  background-color: #5c5452;
+  color: white;
+}
+
+.badge.js {
+  background-color: #5c5452;
+  color: white;
+}
+
+.badge.python {
+  background-color: #5c5452;
+  color: white;
+}
+
+.badge.django {
+  background-color: #5c5452;
+  color: white;
+}
