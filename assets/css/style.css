@@ -427,7 +427,9 @@ main {
   bottom: 20px;
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity .4s, transform .4s;
+  transition:
+    opacity 0.4s,
+    transform 0.4s;
 }
 .project-card.active {
   flex: 4;
@@ -438,4 +440,12 @@ main {
 .project-card.active .card-content {
   opacity: 1;
   transform: translateY(0);
+}
+a.project-link {
+  display: inline-block !important;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  border-radius: 15px;
+  background-color: rgba(72, 65, 65, 0.2);
+  font-size: 12px;
 }
