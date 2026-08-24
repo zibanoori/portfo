@@ -448,9 +448,17 @@ a.project-link {
   border-radius: 15px;
   background-color: rgba(72, 65, 65, 0.2);
   font-size: 10px;
+  cursor: pointer;
 }
 .card-content h3 {
   font-size: 12px;
   margin-bottom: 8px;
 
+}
+.card-content p {
+  color: var(--color-primary);
+  line-height: 1;
+  margin-bottom: 14px;
+  max-width: 400px;
+  font-size: 10px;
 }
