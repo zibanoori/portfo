@@ -390,7 +390,7 @@ main {
 }
 .projects-list {
   width: 100%;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
 }
@@ -400,6 +400,11 @@ main {
   background-color: var(--color-white);
   border: 1px solid rgba(27, 42, 74, 0.1);
   border-radius: 14px;
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  cursor: pointer;
 }
 .projects .container {
   display: flex;
