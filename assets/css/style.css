@@ -518,3 +518,10 @@ main {
   background-color: #5c5452;
   color: white;
 }
+
+section {
+  position: relative; 
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+
