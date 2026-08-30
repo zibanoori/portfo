@@ -537,3 +537,6 @@ section::after {
   left: 10%; 
 }
 
+.contact::after {
+  display: none;
+}
