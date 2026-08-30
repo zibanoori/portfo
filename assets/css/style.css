@@ -381,6 +381,8 @@ main {
   font-size: 1rem;
 }
 .footer-bottom {
+  display: flex;
+  justify-content: space-between;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   text-align: center;
   padding: 20px;
