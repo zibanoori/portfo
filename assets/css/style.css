@@ -528,13 +528,13 @@ section {
 section::after {
   content: "";
   display: block;
-  width: 80%; 
-  height: 8px; 
+  width: 20%; 
+  height: 1px; 
   background-color: #e0e0e0; 
   margin: 0 auto; 
   position: absolute;
   bottom: 0;
-  left: 10%; 
+  left: 35%; 
 }
 
 .contact::after {
