@@ -8,7 +8,8 @@ The website is designed with a clean, modern, and professional style while keepi
 
 ## 🌐 Live Demo
 
-[Visit the Website](https://zibanoori.github.io/ziba-noori-portfolio/)
+[Visit the Website](https://zibanoori.github.io/fullstackPortfolio
+/)
 
 ## 🚀 Features
 
@@ -38,7 +39,7 @@ The goal is to create a professional portfolio that is simple, elegant, and easy
 ## 📂 Project Structure
 
 ```text
-ziba-noori-portfolio/
+fullstackPortfolio/
 │
 ├── assets/
 │   ├── css/
@@ -48,3 +49,4 @@ ziba-noori-portfolio/
 │
 ├── index.html
 └── README.md
+```
