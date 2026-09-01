@@ -575,3 +575,32 @@ section::after {
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(25, 32, 47, 0.08);
 }
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 10px;
+  font-family: var(--font-main);
+  font-size: 0.95rem;
+  color: var(--color-primary);
+  background-color: #f8fafc;
+  border: none;
+  border-bottom: 1px solid #d9dfeb;
+  outline: none;
+  transition: 0.3s;
+}
+
