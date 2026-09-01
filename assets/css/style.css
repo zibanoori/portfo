@@ -567,3 +567,11 @@ section::after {
   color: var(--color-secondary);
   line-height: 1.7;
 }
+.contact-form {
+  width: 100%;
+  padding: 32px;
+  background-color: var(--color-white);
+  border: 1px solid rgba(45, 59, 90, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(25, 32, 47, 0.08);
+}
