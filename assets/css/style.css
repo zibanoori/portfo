@@ -9,9 +9,9 @@
   --font-script: "Dancing Script", cursive;
   --font-alt: "Outfit", sans-serif;
 
-  --color-primary: #26364f;
-  --color-secondary: #7186a5;
-  --color-background: #f3f6fa;
+  --color-primary: #164e4a;
+  --color-secondary: #4f8f89;
+  --color-background: #f2f8f7;
   --color-white: #ffffff;
 }
 body {
@@ -30,7 +30,7 @@ img {
 }
 .container {
   max-width: 1000px;
-  width: 90%; 
+  width: 90%;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -285,7 +285,7 @@ main {
   gap: 16px;
   padding: 20px;
   background-color: var(--color-white);
-  border: 1px solid rgba(27, 42, 74, 0.1);
+  border: 1px solid rgb(214, 206, 206);
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -310,7 +310,7 @@ main {
   color: var(--color-secondary);
 }
 .skill-item:hover {
-  border: 1px solid var(--color-secondary);
+  border: 1px solid gray;
   box-shadow: 0 5px 15px rgba(27, 42, 74, 0.08);
   transform: translateY(-2px);
 }
@@ -397,7 +397,6 @@ main {
   padding: 60px 0;
 }
 
-
 .projects .container {
   display: flex;
   flex-direction: column;
@@ -414,7 +413,7 @@ main {
 .projects-list {
   display: flex;
   width: 100%;
-  height: 450px; 
+  height: 450px;
   gap: 15px;
 }
 
@@ -424,8 +423,8 @@ main {
   overflow: hidden;
   cursor: pointer;
   background-color: #fff;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  flex: 1; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  flex: 1;
   transition: flex 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .project-card.active {
@@ -447,13 +446,12 @@ main {
   left: 0;
   right: 0;
   padding: 20px;
-  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); 
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
   color: white;
   opacity: 0;
   transform: translateY(20px);
-  transition: all 0.4s ease 0.2s; 
+  transition: all 0.4s ease 0.2s;
 }
-
 
 .project-card.active .card-content {
   opacity: 1;
@@ -521,7 +519,7 @@ main {
 }
 
 section {
-  position: relative; 
+  position: relative;
   padding-bottom: 60px;
   margin-bottom: 60px;
 }
@@ -529,15 +527,24 @@ section {
 section::after {
   content: "";
   display: block;
-  width: 20%; 
-  height: 1px; 
-  background-color: #e0e0e0; 
-  margin: 0 auto; 
+  width: 20%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 0 auto;
   position: absolute;
   bottom: 0;
-  left: 35%; 
+  left: 35%;
 }
 
 .contact::after {
   display: none;
 }
+
+.contact {
+  padding: 50px 0;
+}
+.contact .container {
+  display: flex;
+  align-items: center;
+}
+
