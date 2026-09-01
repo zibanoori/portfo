@@ -560,3 +560,10 @@ section::after {
   flex: 1;
 }
 
+.contact-description {
+  max-width: 500px;
+  font-family: var(--font-main);
+  font-size: 1rem;
+  color: var(--color-secondary);
+  line-height: 1.7;
+}
