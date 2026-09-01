@@ -548,3 +548,15 @@ section::after {
   align-items: center;
 }
 
+.contact-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: center;
+  gap: 80px;
+}
+
+.contact-start {
+  flex: 1;
+}
+
