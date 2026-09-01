@@ -604,3 +604,29 @@ section::after {
   transition: 0.3s;
 }
 
+.form-group input {
+  height: 45px;
+}
+
+.form-group textarea {
+  min-height: 140px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-bottom-color: var(--color-secondary);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #9aa5b5;
+}
+
+.contact-form .btn-primary {
+  border: none;
+  cursor: pointer;
+}
+.contact {
+  padding: 60px 0;
+  margin-bottom: 0;
+}
