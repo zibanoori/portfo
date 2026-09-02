@@ -430,9 +430,14 @@ main {
   overflow: hidden;
   cursor: pointer;
   background-color: #fff;
+
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   flex: 1;
   transition: flex 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.project-card:hover {
+  border: 1px solid #b9bdbd;
 }
 .project-card.active {
   flex: 4;
