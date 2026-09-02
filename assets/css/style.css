@@ -30,17 +30,17 @@ img {
 }
 .container {
   max-width: 1000px;
-  width: 90%;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
 }
 .hero-image {
   flex: 1;
-  width: 420px; 
+  width: 400px;
   height: 400px;
   max-width: 100%;
   border: 4px solid #bde6e1;
@@ -58,6 +58,7 @@ img {
 }
 .hero {
   padding: 95px 0;
+  padding-top: 160px;
 }
 .btn-primary {
   display: inline-block;
@@ -386,11 +387,11 @@ main {
 }
 .footer-bottom {
   display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  max-width: 1000px; 
-  margin: 0 auto; 
-  padding: 20px; 
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   text-align: center;
 }
