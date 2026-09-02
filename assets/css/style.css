@@ -660,5 +660,31 @@ section::after {
     height: 300px;
   }
 
+  /* About Section */
+  .about .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* Skills Section */
+  .skills .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .skills-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Contact Section */
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .contact-start {
+    text-align: center;
+  }
+
   
 }
