@@ -540,7 +540,7 @@ section::after {
   margin: 0 auto;
   position: absolute;
   bottom: 0;
-  left: 40%; /* تغییر یافته برای وسط‌چین شدن */
+  left: 40%;
 }
 
 .contact::after {
