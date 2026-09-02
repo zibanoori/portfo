@@ -637,3 +637,7 @@ section::after {
   padding: 60px 0;
   margin-bottom: 0;
 }
+.form-group textarea {
+  resize: none;
+  max-height: 300px; 
+}
