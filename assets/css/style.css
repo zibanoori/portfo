@@ -639,7 +639,7 @@ section::after {
 }
 .form-group textarea {
   resize: none;
-  max-height: 300px; 
+  max-height: 300px;
 }
 
 /* Tablet and smaller screens (max-width: 992px) */
@@ -654,7 +654,7 @@ section::after {
     text-align: center;
     gap: 40px;
   }
-  
+
   .hero-image {
     width: 300px;
     height: 300px;
@@ -671,7 +671,7 @@ section::after {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .skills-list {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -681,10 +681,86 @@ section::after {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  
+
   .contact-start {
     text-align: center;
   }
 
-  
+  /* Footer */
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .footer-contact p {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .nav-list {
+    gap: 15px;
+    font-size: 0.9rem;
+  }
+
+  .profile-name {
+    font-size: 2rem;
+  }
+
+  .job-title {
+    font-size: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .projects-list {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .project-card {
+    flex: none;
+    height: 300px;
+    width: 100%;
+  }
+
+  .project-card.active {
+    flex: none;
+  }
+
+  .skills-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
