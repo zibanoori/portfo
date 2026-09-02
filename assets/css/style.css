@@ -67,7 +67,7 @@ img {
   letter-spacing: 1px;
 }
 .btn-primary:hover {
-  background-color: #35496f;
+  background-color: #2a655f;
   box-shadow: 0 5px 15px rgba(33, 42, 67, 0.15);
   color: var(--color-white);
 }
@@ -383,10 +383,13 @@ main {
 }
 .footer-bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+  padding: 20px; 
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   text-align: center;
-  padding: 20px;
 }
 .footer-bottom p {
   font-family: var(--font-main);
