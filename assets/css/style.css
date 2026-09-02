@@ -648,5 +648,17 @@ section::after {
     padding: 0 20px;
   }
 
+  /* Hero Section */
+  .hero .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+  
+  .hero-image {
+    width: 300px;
+    height: 300px;
+  }
+
   
 }
