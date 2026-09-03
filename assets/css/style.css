@@ -426,6 +426,7 @@ main {
 
 .project-card {
   position: relative;
+  border: 1px solid #b9bdbd;
   border-radius: 15px;
   overflow: hidden;
   cursor: pointer;
@@ -436,7 +437,7 @@ main {
 }
 
 .project-card:hover {
-  border: 1px solid #b9bdbd;
+  border-color: var(--color-secondary);
 }
 .project-card.active {
   flex: 4;
